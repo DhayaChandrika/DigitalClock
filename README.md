@@ -12,11 +12,11 @@ Clocks are useful elements for any UI if used in a proper way. Clocks can be use
 
 **JavaScript:** For JavaScript, follow the below-given steps.
 
-_--> Step 1:_ Create a function “showTime”. <br>
-_--> Step 2:_ Create an instance of the Date object. <br>
-_--> Step 3:_ Using the methods of the Date object get “hours”, “minute” and “seconds”. <br>
-_--> Step 4:_ Set AM/PM depending on the hour value. The Date object works on the 24-hour format so we change the hour back to 1 when it gets larger than 12. The AM/PM also changes according to that.<br>
-_--> Step 5:_ Now make a string using the same HH:MM:SS format changing the hour, minute, and a second value with the values, we get from Date object methods.<br>
-_--> Step 6:_ Now replace the string variable in the “div” using the innerHTML property.<br>
-_--> Step 7:_ To call the function every second use setInterval() method and set the time-interval as 1000ms which is equal to 1s.<br>
-_--> Step 8:_ Now call the function at the end to start the function at the exact reloading/rendering time as setInterval() will call first after 1s of rendering.
+- Step 1: Create a function “showTime”. <br>
+- Step 2: Create an instance of the Date object. <br>
+- Step 3: Using the methods of the Date object get “hours”, “minute” and “seconds”. <br>
+- Step 4: Set AM/PM depending on the hour value. The Date object works on the 24-hour format so we change the hour back to 1 when it gets larger than 12. The AM/PM also changes according to that.<br>
+- Step 5: Now make a string using the same HH:MM:SS format changing the hour, minute, and a second value with the values, we get from Date object methods.<br>
+- Step 6: Now replace the string variable in the “div” using the innerHTML property.<br>
+- Step 7: To call the function every second use setInterval() method and set the time-interval as 1000ms which is equal to 1s.<br>
+- Step 8: Now call the function at the end to start the function at the exact reloading/rendering time as setInterval() will call first after 1s of rendering.
